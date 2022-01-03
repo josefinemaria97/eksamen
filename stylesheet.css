@@ -1,0 +1,479 @@
+
+body { margin: 0}
+
+.container1-fluid{
+    background-image: url(../img/Josefine3.jpg);
+    background-repeat: no-repeat;
+    background-position: top 200px left 200px;
+    height: 800px;
+    margin-bottom: 200px;
+    position: relative;
+    
+
+}
+
+
+.josefine-h1{
+   
+    padding-left: 590px;
+    padding-top: 420px;
+    font-size: 48px;
+    
+}
+.multimedie-h1{
+    padding-top: 10px;
+    padding-left: 610px;
+    font-size: 48px;
+}
+.josefine{
+    padding-left: 10%;
+    padding-top: 5%;
+    position: absolute;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+
+}
+hr{
+    width: 600px;
+    margin-left: 595px;
+    margin-top: 20px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+    }
+
+.nav{
+    background-color: rgb(85, 84, 84);
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+    height: 100px;
+   padding-top: 30px;
+   margin: -15px;
+   color: white;
+  
+z-index: 1;
+
+
+
+
+}
+.btn{
+    background-color: white;
+    color: black;
+    outline-color: black;
+    border-color:white;
+
+    font-family:'Montserrat', sans-serif ;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgb(3, 3, 3);
+    background-color: #000000;
+    border-color: #000000; /*set the color you want here*/
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: rgb(255, 255, 255) !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: rgb(7, 7, 7) !important;
+}
+
+ul.nav li.active a {
+    color: rgb(255, 255, 255) !important;
+}
+.container2-fluid{
+    background-color: rgba(252, 165, 134, 0.851);
+    height: 1000px;
+}
+.om-mig{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.video{
+    max-width: 70%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+video {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+
+ .container3-fluid{
+     padding-top: 100px;
+     position: relative;
+     
+     
+ } 
+
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+  
+ 
+.container4-fluid{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: relative;
+    
+    
+}
+.container5-fluid{
+    height: 100px;
+    background-color:none;
+    color: #ffffff;
+    position: relative;
+
+   
+    
+    
+}
+.kontakt{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+ 
+ .portfolio{
+     text-align: center;
+     padding-bottom: 60px;
+ }
+ .portfoliostreg{
+     align-items: center;
+ }
+ .row{
+     padding-top: 5px;
+     align-items: center;
+ }
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color:transparent;
+    width: 300px;
+    height: 300px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: transparent;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+   background-image: url(../img/bagrund-flip-kort.jpg);
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+font-family:'Montserrat', sans-serif;
+padding-top: 40px;
+}
+
+/* kontakt form start */
+
+.contact-clean {
+    background-image: url(../img/jess-bailey-q10VITrVYUM-unsplash.jpg);
+    background-size: cover;
+    padding: 200px 0
+}
+
+@media (max-width:767px) {
+    .contact-clean {
+        padding: 20px 0
+    }
+}
+
+@media (max-width:767px) {
+    .contact-clean form {
+        padding: 30px
+    }
+}
+
+.contact-clean h2 {
+    margin-top: 5px;
+    
+    font-size: 28px;
+    margin-bottom: 36px;
+    color: inherit;
+    font-family:'Montserrat', sans-serif; ;
+    
+}
+
+.contact-clean .form-group:last-child {
+    margin-bottom: 5px
+}
+
+
+
+.contact-clean form textarea.form-control {
+    min-height: 100px;
+    max-height: 260px;
+    padding-top: 10px;
+    
+    resize: vertical;
+    resize: none
+}
+
+
+.contact-clean form {
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(196, 196, 196, 0.851);;
+    padding: 40px;
+    border-radius: 4px;
+    color: #000000;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+.contact-clean form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    outline: none !important
+}
+
+.contact-clean form .btn:hover {
+    opacity: 1
+}
+
+.contact-clean form .btn:active {
+    transform: translateY(1px)
+}
+
+.contact-clean form .btn-primary {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    margin-top: 15px;
+    color: rgb(0, 0, 0)
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000; 
+}
+.container6-fluid{
+   
+    height: 200px;
+    padding-top: 100px;
+    position: relative;
+}
+.xdh1{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.b2{
+    max-width: 80%;
+}
+.b1{
+    max-width: 80%;
+}
+.container7-fluid{
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.container9-fluid{
+    margin-left:5%;
+    padding-bottom: 10%;
+    position: relative;
+}
+.xd0{
+    padding-bottom: 100px;
+}
+
+.xd1{
+    max-width:100%;
+}
+.xd2{
+    max-width: 100%;
+}
+.xd3{
+    max-width: 100%;
+}
+
+.video-flow2{
+    max-width: 90%;
+
+    display: block;
+    margin: auto;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid currentColor;
+
+    
+}
+.pflow2{
+    padding-bottom: 60px;
+}
+.h1flow2{
+    padding-bottom:50px;
+}
+.video3{
+    max-width: 80%;
+    min-width: 30%;
+}
+
+.app{
+    max-width: 70%;
+    min-width: 30%;
+
+}
+.flowflow{
+    max-width: 90%;
+}
+
+.fmv{
+    max-width: 90%; 
+}
+.video-gucci{
+    max-width: 80%;
+    padding-bottom: 100px;
+}
+
+.container10-fluid{
+padding-top: 100px;
+position: relative;
+}
+
+.nike{
+    max-width: 70%;  
+}
+.upseat{
+    max-width: 70%; 
+    padding-bottom: 70px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(85, 84, 84);
+    height: auto;
+    width: 100vw;
+    padding-bottom: 10px;
+    color: #fff;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gantkort{
+    max-width: 80%;
+    padding-bottom: 50px;
+}
+
+.mood{
+    max-width: 95%;
+}
+.container11-fluid{
+    padding-bottom: 150px;
+    
+}
+.container12-fluid{
+    background-color:rgba(252, 165, 134, 0.851) ;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;  
+    padding-top: 20px;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;   
+}
+.container13-fluid{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.usertest{
+    max-width: 80%;
+}
+
+
